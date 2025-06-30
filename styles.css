@@ -15,6 +15,7 @@ html {
 #body {
     display: flex;
     flex-direction: column;
+    background-color: #000;
 }
 
 .logo {
@@ -44,7 +45,7 @@ html {
 
 table {
     background-color: #181818;
-    width: 100%;
+    width: 90%;
     margin: 3rem;
     border-collapse: collapse;
 }
