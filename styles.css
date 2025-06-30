@@ -41,3 +41,16 @@ html {
     min-height: 100vh;
     padding: 3em;
 }
+
+table {
+    background-color: #181818;
+    width: 100%;
+    margin: 3rem;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 1em;
+    text-align: left;
+}
