@@ -21,14 +21,14 @@ html {
     width: 10%;
 }
 
-#header {
+#header,
+#footer {
     display: flex;
     gap: 1%;
     align-items: center;
     justify-content: space-between;
     background-color: #000;
-    color: #fff;
-    padding: 0 2em;
+    padding: 1em;
 }
 
 #nav-bar a{
@@ -37,18 +37,7 @@ html {
     margin-left: 1rem;
 }
 
-/* #main {
+.container {
     min-height: 100vh;
-} */
-
-#championship {
-    min-height: 100vh;
-}
-
-#live {
-    min-height: 100vh;
-}
-
-#footer {
-    display: flex;
+    padding: 3em;
 }
