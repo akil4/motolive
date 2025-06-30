@@ -1,0 +1,10 @@
+{
+  "2024": [
+    { "position": 1, "rider": "Pecco Bagnaia", "team": "Ducati Lenovo", "points": 194, "gap": 0 },
+    { "position": 2, "rider": "Jorge Martin", "team": "Pramac Ducati", "points": 190, "gap": 4 }
+  ],
+  "2023": [
+    { "position": 1, "rider": "Francesco Bagnaia", "team": "Ducati Lenovo", "points": 265, "gap": 0 },
+    { "position": 2, "rider": "Jorge Martin", "team": "Pramac Ducati", "points": 260, "gap": 5 }
+  ]
+}
