@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+    font-size: 32px;
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+}
+
+#body {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 10%;
+}
+
+#header {
+    display: flex;
+    gap: 1%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    color: #fff;
+    padding: 0 2em;
+}
+
+#nav-bar a{
+    text-decoration: none;
+    color: inherit;
+    margin-left: 1rem;
+}
+
+/* #main {
+    min-height: 100vh;
+} */
+
+#championship {
+    min-height: 100vh;
+}
+
+#live {
+    min-height: 100vh;
+}
+
+#footer {
+    display: flex;
+}

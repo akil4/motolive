@@ -3,32 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <script src="main.js"></script>
     <title>MotoLive | Everything about MotorSports</title>
 </head>
-<body>
+<body id="body">
     <header id="header">
-        <img src="93.png" class="logo""></img>
+        <img src="93.png" class="logo">
         <h1 id="heading">MotoLive</h1>
+        <nav id="nav-bar">
+            <a href="#header">Home</a>
+            <a href="#championship">Championship</a>
+            <a href="#live">Live</a>
+        </nav>
     </header>
-    <body id="body">
-        <main id="main">
-            <div class="championship">
-                <table id="championship-table">
-                    <thead>
-                        <tr>
-                            <th>POS</th>
-                            <th>Rider</th>
-                            <th>Team</th>
-                            <th>Points</th>
-                        </tr>
-                    </thead>
-                    <tbody></tbody>
-                </table>
-            </div>
-        </main>
-    </body>
+    <main id="main">
+        <div id="championship" class="championship">
+            <h2>Championship</h2>
+            <table id="championship-table">
+                <thead>
+                    <tr>
+                        <th>POS</th>
+                        <th>Rider</th>
+                        <th>Team</th>
+                        <th>Points</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div id="live" class="live">
+            <h2>Live</h2>
+        </div>
+    </main>
     <footer id="footer">
         <p class="footer-paragraph">
             <span class="quote">If you're not crashing, you're not pushing hard enough.</span><br>
