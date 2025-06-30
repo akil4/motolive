@@ -16,6 +16,8 @@ html {
     display: flex;
     flex-direction: column;
     background-color: #000;
+    width: 100%;
+    padding: 0 10em;
 }
 
 .logo {
@@ -45,9 +47,10 @@ html {
 
 table {
     background-color: #181818;
-    width: 90%;
-    margin: 3rem;
+    width: 100%;
+    margin-top: 3rem;
     border-collapse: collapse;
+    border-radius: 25px;
 }
 
 table th,
