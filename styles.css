@@ -73,7 +73,7 @@ table td {
     font-weight: bold;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   #body {
     padding: 0 1em;
   }
