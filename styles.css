@@ -54,6 +54,19 @@ html {
     margin-top: 2rem;
 }
 
+.standings-selector {
+  display: flex;
+  gap: 1em;
+  margin-top: 1rem;
+}
+
+.button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  font-family: 'Orbitron', sans-serif;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
