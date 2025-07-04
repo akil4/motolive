@@ -1,4 +1,27 @@
-[
-  { "position": 1, "rider": "Marc Marquez", "team": "Ducati Lenovo", "lap": 5, "time": "1:58.122", "gap": 0 },
-  { "position": 2, "rider": "Pecco Bagnaia", "team": "Ducati Lenovo", "lap": 5, "time": "1:58.215", "gap": 0.093 }
-]
+{
+  "session_type": "Race",
+  "session_status": "Finished",
+  "riders": [
+    {
+      "position": 1,
+      "name": "Francesco Bagnaia",
+      "team": "Ducati Lenovo Team",
+      "gap": "",
+      "last_lap": "1:31.000"
+    },
+    {
+      "position": 2,
+      "name": "Jorge Martin",
+      "team": "Prima Pramac Racing",
+      "gap": "+0.500",
+      "last_lap": "1:31.100"
+    },
+    {
+      "position": 3,
+      "name": "Marc Marquez",
+      "team": "Gresini Racing MotoGP",
+      "gap": "+1.000",
+      "last_lap": "1:31.200"
+    }
+  ]
+}
